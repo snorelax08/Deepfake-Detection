@@ -1,0 +1,127 @@
+body {
+  /* background-image: url(https://s22.postimg.cc/ngk0detjl/sea-3652697.jpg); */
+  background-color: rgb(199, 199, 219);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  background-color: var(--nav-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 7%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 16vh;
+  border-bottom: #0e0d0d;
+}
+
+.header .logo img {
+  height: 5rem;
+  border-radius: 30%;
+  /* size: 80%; */
+}
+
+.header .navbar a {
+  color: var(--black);
+  font-size: 1.2rem;
+  margin: 0.7rem;
+}
+
+.header .navbar a:hover {
+  color: var(--black);
+  border-top: 0.1rem solid var(--black);
+  border-bottom: 0.1rem solid var(--black);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.header .icons {
+  display: flex;
+}
+.header .icons div {
+  color: white;
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+.header .icons div:hover {
+  color: var(--black);
+}
+.header .icons .menu-icon {
+  display: none;
+}
+
+.center {
+  display: block;
+  margin-top: 150px;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 500px;
+}
+
+.center-block {
+  display: block;
+  margin-left: 22%;
+}
+
+#result {
+  font-size: 2rem;
+  color: black;
+}
+
+p {
+  font-family: Montserrat;
+}
+
+button {
+  background-image: linear-gradient(-180deg, #e0ddeb 0%, #b3b3b3 100%);
+  border: 1px solid #ebe9f0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), inset 0 2px 0 0 #ffffff;
+  border-radius: 6px;
+  width: 143px;
+  height: 34px;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* .btn2 {
+background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor:pointer;
+overflow: hidden;        
+font-family:AvenirNext-Medium;
+font-size:16px;
+color:#4a4a4a;
+text-align:left;
+} */
+
+p {
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+.container {
+  background-image: url("/DeepFake_MultiFace_Videos/frontend//images/page2bg.webp");
+  background-repeat: no-repeat;
+  background-size: auto 80%; /* Adjust the height percentage as needed */
+  background-position: right center;
+  margin-top: 20px;
+  margin-right: 100px;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 450px;
+  transform: translate(-50%, -50%);
+}
